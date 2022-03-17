@@ -7,7 +7,7 @@ public class If_bedinung {
         Random random = new Random();
         int randomNumber = random.nextInt(100);
 
-        if (randomNumber>50){
+        if ((randomNumber>50) && (randomNumber<90)){
 
         } else if (randomNumber<10){
 
