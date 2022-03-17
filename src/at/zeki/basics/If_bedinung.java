@@ -10,7 +10,7 @@ public class If_bedinung {
         if ((randomNumber>50) && (randomNumber<90)){
 
         } else if (randomNumber<10){
-
+            System.out.println("in");
         };
 
 
