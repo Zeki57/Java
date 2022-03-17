@@ -11,7 +11,7 @@ public class If_bedinung {
 
         } else if (randomNumber<10){
 
-        }else
+        };
 
 
     }
