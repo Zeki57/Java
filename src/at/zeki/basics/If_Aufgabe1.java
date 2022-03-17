@@ -12,7 +12,7 @@ public class If_Aufgabe1 {
         }else if ((randomNumber>20) && (randomNumber<50)) {
             System.out.println("Medium");
         }else if (randomNumber<50){
-            System.out.println("Larged");
+            System.out.println("Large");
         };
     }
 }
