@@ -8,7 +8,7 @@ public class If_Aufgabe2 {
         int randomNumber2 = random.nextInt(100);
 
         if ((randomNumber1<randomNumber2) && (randomNumber1<50)){
-            System.out.println(Zahl);
+            System.out.println();
         }
     }
 }
