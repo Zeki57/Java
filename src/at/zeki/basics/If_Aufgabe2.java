@@ -2,6 +2,7 @@ package at.zeki.basics;
 import java.util.Random;
 
 public class If_Aufgabe2 {
+
     public static void main(String[]args){
         Random random = new Random();
         int randomNumber1 = random.nextInt(100);
@@ -14,4 +15,5 @@ public class If_Aufgabe2 {
         }else if ((randomNumber1>50) && (randomNumber2!=50)){
             System.out.println("Erster Zahl klein, Zeweite kein 5iger");
     };
+
 }
