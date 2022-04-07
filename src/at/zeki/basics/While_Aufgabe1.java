@@ -8,10 +8,10 @@ public class While_Aufgabe1 {
         boolean isFinished = false;
 
         while (!isFinished){
-            int randomValue = random.nextInt(10,31);
+            int randomValue = random.nextInt(10,30);
             System.out.println("Nr:" + randomValue);
 
-            if((randomValue=10) || (randomValue=25)){
+            if((randomValue==10) || (randomValue==25)){
                 isFinished=true;
             }
 
