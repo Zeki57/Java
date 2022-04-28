@@ -2,16 +2,19 @@ package at.zeki.basics;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.util.random.RandomGenerator;
 
 public class Würfelspiel {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         boolean exit = false;
-        int input = 0;
-        int Zahl = 0;
+        int Input = 0;
+        int sum1 = 0;
+        int sum2 = 0;
 
-        Scanner scanner = new Scanner (System.in);
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println();
         System.out.println("Drücken sie 1 um zu spielen");
@@ -19,20 +22,36 @@ public class Würfelspiel {
         System.out.println("Drücken sie 3 um das Spiel zu Beenden");
 
 
-        while (!exit){
+        while (!exit) {
 
-            input = scanner.nextInt();
+            Input = scanner.nextInt();
 
             Random random = new Random();
-            int randomNumber1 = random.nextInt(0,7);
-            int randomNumber2 = random.nextInt(0,7);
 
-            switch (randomNumber1){
+
+            switch (Input) {
 
                 case 1:
-                    for (int i = 1; i < 7; i=i+1) {
-
+                    for (int i = 0; i < 7; i++) {
+                        int RandomNumber1 = random.nextInt(1, 7);
+                        sum1 += RandomNumber1;
                     }
+                    System.out.println("Player:" + sum1);
+
+                    for (int i = 0; i < 7; i++) {
+                        int RandomNumber2 = random.nextInt(1, 7);
+                        sum2 += RandomNumber2;
+                    }
+                    System.out.println("Computer:" + sum2);
+
+                    if (sum1>sum2){
+                        System.out.println("Winner: Player");
+                }else if (sum2>sum1){
+                        System.out.println("Winner: Computer");
+                    };
+                    break;
+                case 2:
+
             }
 
         }
