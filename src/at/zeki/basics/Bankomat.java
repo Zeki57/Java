@@ -67,6 +67,7 @@ public class Bankomat {
                      if (input == 4) {
                          System.out.println("beendet");
                      }
+
                      break;
              }
         }
