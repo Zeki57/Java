@@ -12,6 +12,8 @@ public class Würfelspiel {
         int Input = 0;
         int sum1 = 0;
         int sum2 = 0;
+        int amountOfWinningTimesPlayer = 0;
+        int amountOfWinningTimesComputer = 0;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -28,7 +30,8 @@ public class Würfelspiel {
 
             Random random = new Random();
 
-
+            sum1 = 0;
+            sum2 = 0;
             switch (Input) {
 
                 case 1:
@@ -38,23 +41,36 @@ public class Würfelspiel {
                     }
                     System.out.println("Player:" + sum1);
 
+
                     for (int i = 0; i < 7; i++) {
                         int RandomNumber2 = random.nextInt(1, 7);
                         sum2 += RandomNumber2;
                     }
                     System.out.println("Computer:" + sum2);
 
-                    if (sum1>sum2){
+                    if (sum1 > sum2) {
                         System.out.println("Winner: Player");
-                }else if (sum2>sum1){
+                        amountOfWinningTimesPlayer += 1;
+                    } else if (sum2 > sum1) {
                         System.out.println("Winner: Computer");
-                    };
+                        amountOfWinningTimesComputer += 1;
+                    }
+
+
+
                     break;
                 case 2:
+            }
 
+            if (amountOfWinningTimesComputer == 5 ||  amountOfWinningTimesPlayer == 5){
+                exit = true;
             }
 
         }
 
+        System.out.println("Winner is" );
+
     }
+
 }
+
