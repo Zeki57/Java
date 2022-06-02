@@ -6,6 +6,7 @@ public class Test2<isFinished> {
     public static void main(String[]args){
     Random random = new Random();
     boolean isFinished = false;
+    int Ergebniss = 0;
 
         while (!isFinished){
         int randomValue = random.nextInt(0,10);
@@ -13,11 +14,15 @@ public class Test2<isFinished> {
 
         if((randomValue==5)){
             isFinished=true;
+        }else{
+            Ergebniss +=randomValue;
         }
 
     }
-        System.out.println("Finished");
+        System.out.println(Ergebniss);
 }
 
 
 }
+
+
