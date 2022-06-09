@@ -62,7 +62,7 @@ public class Würfelspiel {
                 case 2:
             }
 
-            if (amountOfWinningTimesComputer == 5 ||  amountOfWinningTimesPlayer == 5){
+            if (amountOfWinningTimesComputer == 5 || amountOfWinningTimesPlayer == 5){
                 exit = true;
             }
 
