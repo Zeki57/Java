@@ -1,4 +1,4 @@
-package at.zeki.basics_1;
+package at.zeki.basics;
 
 public class Quersumme2 {
     public static void main(String[] args) {

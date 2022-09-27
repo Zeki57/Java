@@ -1,4 +1,4 @@
-package at.zeki.basics_1;
+package at.zeki.basics;
 import java.util.Random;
 
 public class If_Aufgabe2 {
