@@ -11,7 +11,7 @@ public class Quersumme2 {
                 num3 /= 10;
             }
             if (Quersumme%7==0)
-                System.out.printf("");
+                System.out.println("summe: " + Quersumme);
         }
     }
 }
