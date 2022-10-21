@@ -1,4 +1,4 @@
-package at.zeki.projects;
+package at.zeki.projects.ifbedingungen;
 import java.util.Random;
 
 public class If_Aufgabe2 {

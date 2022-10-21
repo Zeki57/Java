@@ -1,4 +1,4 @@
-package at.zeki.projects;
+package at.zeki.projects.arrays;
 
 import java.util.Arrays;
 

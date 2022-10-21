@@ -1,4 +1,4 @@
-package at.zeki.projects;
+package at.zeki.projects.arrays;
 
 public class Array_Aufgabe1 {
     public static void main(String[] args) {
