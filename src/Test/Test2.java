@@ -1,4 +1,4 @@
-package at.zeki.basics;
+package Test;
 
 import java.util.Random;
 

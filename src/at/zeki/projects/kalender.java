@@ -1,4 +1,4 @@
-package at.zeki.basics;
+package at.zeki.projects;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

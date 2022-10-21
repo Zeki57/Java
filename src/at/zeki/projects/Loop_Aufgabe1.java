@@ -1,4 +1,4 @@
-package at.zeki.basics;
+package at.zeki.projects;
 
 public class Loop_Aufgabe1 {
     public static void main(String[] args){

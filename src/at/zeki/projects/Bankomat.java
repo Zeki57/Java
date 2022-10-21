@@ -1,4 +1,4 @@
-package at.zeki.basics;
+package at.zeki.projects;
 
 import java.util.Scanner;
 

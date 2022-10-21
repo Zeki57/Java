@@ -1,8 +1,8 @@
-package at.zeki.basics;
+package at.zeki.projects;
 
 public class Quersumme1 {
     public static void main(String[] args) {
-        for (int zahl = 1000; zahl < 2000; zahl++) {
+        for (int zahl = 0; zahl < 1000; zahl++) {
             int zahl2 = zahl;
             int ziffernsumme = 0;
             while (zahl2>0){

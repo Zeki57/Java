@@ -1,4 +1,4 @@
-package at.zeki.basics;
+package at.zeki.projects;
 
 
 import java.util.Random;
@@ -10,7 +10,7 @@ public class Worterraten {
         int randomNumber = random.nextInt(wordsToGuess.length);
 
        String guessingWord = wordsToGuess[randomNumber];
-       guessingWord.toCharArray();
+        char[] guessingWordAsArray = guessingWord.toCharArray();
     }
 
     }
