@@ -2,6 +2,9 @@ package at.zeki.projects;
 
 
 import java.util.Random;
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.InputMismatchException;
 
 public class Worterraten {
     public static void main(String[] args) {
@@ -51,4 +54,4 @@ public class Worterraten {
     }
 }
 
-    }
+
