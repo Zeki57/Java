@@ -1,4 +1,4 @@
-package at.zeki.oo;
+package at.zeki.oo.newcar;
 
 public class Engine {
     public enum TYPE {GAS, DIESEL}

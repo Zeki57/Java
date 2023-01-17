@@ -1,4 +1,6 @@
-package at.zeki.oo;
+package at.zeki.oo.newcar;
+
+import at.zeki.oo.Car;
 
 public class Main {
     public static void main(String[] args) {
