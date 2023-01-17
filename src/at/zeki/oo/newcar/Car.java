@@ -1,7 +1,6 @@
-package at.zeki.oo;
+package at.zeki.oo.newcar;
 
-import at.zeki.oo.newcar.Engine;
-import at.zeki.oo.newcar.Manufacturer;
+
 
 public class Car {
     private String carModel;
